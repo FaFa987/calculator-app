@@ -17,8 +17,12 @@ public class MathOperations {
     }
 
 
-    public static int multiply(int num1 , int num2){
-        return num1 * num2;
+    public static int multiply(int... numbers){
+        int multi = 1;
+        for(int number : numbers){
+            multi *= number; // 1*2 2*3 6*2
+        }
+        return multi;
     }
     public static int divide(int num1 , int num2){
         return num1 / num2;

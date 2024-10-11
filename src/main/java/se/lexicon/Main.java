@@ -6,5 +6,6 @@ public class Main  {
     public static void main(String[] args) {
         System.out.println(MathOperations.add(5,2,7));
         System.out.println(MathOperations.subtract(8,6));
+        System.out.println(MathOperations.multiply(2,3,2));
     }
 }
