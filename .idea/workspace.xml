@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d74631e4-7e0f-49b0-b2d2-07620d9ee43e" name="Changes" comment="MathOperations">
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/MathOperations.java" afterDir="false" />
+    <list default="true" id="d74631e4-7e0f-49b0-b2d2-07620d9ee43e" name="Changes" comment="int... numbers">
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/lexicon/MathOperationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +48,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.MathOperationTest.executor": "Run",
+    "JUnit.MathOperationTest.testSubtract.executor": "Run",
+    "JUnit.MathOperationTest.testSubtract2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -60,7 +64,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MathOperationTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="se.lexicon.Main" />
       <module name="calculator-app" />
@@ -74,8 +78,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MathOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.MathOperationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationTest.testSubtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.MathOperationTest" />
+      <option name="METHOD_NAME" value="testSubtract" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationTest.testSubtract2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.MathOperationTest" />
+      <option name="METHOD_NAME" value="testSubtract2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MathOperationTest" />
+        <item itemvalue="JUnit.MathOperationTest.testSubtract2" />
+        <item itemvalue="JUnit.MathOperationTest.testSubtract" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,7 +150,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728660597888</updated>
-      <workItem from="1728660599027" duration="4636000" />
+      <workItem from="1728660599027" duration="7854000" />
     </task>
     <task id="LOCAL-00001" summary="MathOperations">
       <option name="closed" value="true" />
@@ -106,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728674699331</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="int... numbers">
+      <option name="closed" value="true" />
+      <created>1728675203577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728675203577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +176,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MathOperations" />
-    <option name="LAST_COMMIT_MESSAGE" value="MathOperations" />
+    <MESSAGE value="int... numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="int... numbers" />
   </component>
 </project>
