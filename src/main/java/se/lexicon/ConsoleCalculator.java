@@ -3,6 +3,7 @@ package se.lexicon;
 import java.util.Scanner;
 
 public class ConsoleCalculator {
+
     public static void displayMenu() {
         System.out.println("-----Calculator Menu-----");
         System.out.println(" 1 + Addition:");
@@ -14,10 +15,17 @@ public class ConsoleCalculator {
     }
 
     public static void runCalculator() {
-        displayMenu();
-        System.out.println("choose the operation:");
-        Scanner sc = new Scanner(System.in);
-        int operation = sc.nextInt();
-        System.out.println(operation);
+        boolean continueLoop = true;
+        do {
+            displayMenu();
+            System.out.println("choose the operation:");
+            Scanner sc = new Scanner(System.in);
+            int operation = sc.nextInt();
+           if (operation == 5) {
+               //continueLoop = false;
+               break;
+           }
+        }while (true);
+
     }
 }
