@@ -25,6 +25,25 @@ public class ConsoleCalculator {
                //continueLoop = false;
                break;
            }
+
+           switch (operation) {
+                   case 1:
+                   System.out.println("Addition operation has been executed");
+                       break;
+                   case 2:
+                       System.out.println("Subtraction operation has been executed");
+                       break;
+                   case 3:
+                       System.out.println("Multiplication operation has been executed");
+                       break;
+                   case 4:
+                       System.out.println("Division operation has been executed");
+                       break;
+               default:
+                   System.out.println("Invalid operation, please try again");
+
+           }
+
         }while (true);
 
     }
