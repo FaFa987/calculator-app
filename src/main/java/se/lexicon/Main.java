@@ -4,6 +4,10 @@ package se.lexicon;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main  {
     public static void main(String[] args) {
+
+        ConsoleCalculator.runCalculator();
+
+        /*
         System.out.println(MathOperations.add(5,2,7));
         System.out.println(MathOperations.subtract(8,6));
         System.out.println(MathOperations.multiply(2,3,2));
@@ -12,6 +16,6 @@ public class Main  {
         }
         catch (ArithmeticException e) {
             System.out.println(e.getMessage());
-        }
+        } */
     }
 }
